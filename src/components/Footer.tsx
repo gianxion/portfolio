@@ -5,8 +5,8 @@ const Footer = () => {
   const year = new Date().getFullYear();
   
   const socialLinks = [
-    { icon: <Github size={20} />, url: 'https://github.com' },
-    { icon: <Linkedin size={20} />, url: 'https://linkedin.com' },
+    { icon: <Github size={20} />, url: 'https://github.com/gianxion' },
+    { icon: <Linkedin size={20} />, url: 'https://www.linkedin.com/in/giannis-chionidis-7b4078226/' },
     { icon: <Twitter size={20} />, url: 'https://twitter.com' },
     { icon: <Instagram size={20} />, url: 'https://instagram.com' }
   ];
@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-white/10 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-white/60 text-sm">© {year} Your Name. All rights reserved.</p>
+          <p className="text-white/60 text-sm">© {year} Ioannis Chionidis. All rights reserved.</p>
           
           <div className="mt-4 md:mt-0 flex space-x-6">
             <a href="#" className="text-white/60 hover:text-white text-sm transition-colors duration-300">Privacy Policy</a>
