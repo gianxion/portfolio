@@ -9,8 +9,13 @@ const AboutSection = () => {
           {/* Image Column */}
           <div className="relative">
             <div className="relative overflow-hidden rounded-lg opacity-0 animate-fade-in">
+              {/* 
+                To use a local image: 
+                1. Add your image file to the public folder (e.g., public/profile.jpg)
+                2. Then reference it with a path starting from the public folder root
+              */}
               <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop" 
+                src="/profile.jpg" 
                 alt="Profile" 
                 className="w-full h-auto rounded-lg shadow-lg"
               />
@@ -41,8 +46,15 @@ const AboutSection = () => {
             </div>
             
             <div className="opacity-0 animate-fade-in animate-delay-3">
+              {/* 
+                To add a PDF resume for download:
+                1. Add your PDF file to the public folder (e.g., public/resume.pdf)
+                2. Then link to it with a path starting from the public folder root
+                3. Add the download attribute to prompt file download instead of navigation
+              */}
               <a 
-                href="#" 
+                href="/resume.pdf" 
+                download
                 className="inline-flex items-center px-6 py-3 bg-portfolio-dark text-white rounded-lg hover:bg-portfolio-dark/90 transition-all duration-300 shadow-md hover:shadow-lg"
               >
                 <Download size={18} className="mr-2" /> Download Resume

@@ -11,32 +11,32 @@ const ProjectsSection = () => {
       title: 'E-Commerce Platform',
       category: 'Web Development',
       description: 'A modern e-commerce platform with a focus on user experience and performance. Built with Next.js and integrated with a headless CMS.',
-      image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=2064&auto=format&fit=crop',
+      image: '', // Removed image as requested
       technologies: ['React', 'Next.js', 'Tailwind CSS', 'Stripe'],
       link: '#'
     },
     {
-      title: 'Health & Fitness App',
-      category: 'Mobile Application',
-      description: 'A comprehensive fitness tracking application that helps users monitor their health metrics and achieve their fitness goals.',
-      image: 'https://images.unsplash.com/photo-1556740758-90de374c12ad?q=80&w=2070&auto=format&fit=crop',
-      technologies: ['React Native', 'Firebase', 'Expo', 'Redux'],
+      title: 'Packing List',
+      category: 'Web Application',
+      description: 'An interactive packing list application that helps users organize items for travel, with categorization and checklist functionality.',
+      image: '', // No image as requested
+      technologies: ['React', 'CSS', 'LocalStorage', 'JavaScript'],
       link: '#'
     },
     {
-      title: 'Financial Dashboard',
-      category: 'Data Visualization',
-      description: 'An interactive dashboard for financial analysis with real-time data visualization and advanced filtering capabilities.',
-      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop',
-      technologies: ['TypeScript', 'D3.js', 'Express', 'MongoDB'],
+      title: 'Trivia Game',
+      category: 'Interactive Game',
+      description: 'A fun and challenging trivia game with multiple categories, difficulty levels, and score tracking.',
+      image: '', // No image as requested
+      technologies: ['React', 'TypeScript', 'Trivia API', 'CSS'],
       link: '#'
     },
     {
-      title: 'Travel Blog Platform',
-      category: 'Full Stack Development',
-      description: 'A platform for travel enthusiasts to share their experiences through interactive stories and visual content.',
-      image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop',
-      technologies: ['Next.js', 'GraphQL', 'Postgres', 'AWS'],
+      title: 'Pizza Menu Page',
+      category: 'UI/UX Design',
+      description: 'A visually appealing and user-friendly pizza menu page with filtering options and an intuitive ordering system.',
+      image: '', // No image as requested
+      technologies: ['HTML', 'CSS', 'JavaScript', 'React'],
       link: '#'
     }
   ];
@@ -77,13 +77,7 @@ const ProjectsSection = () => {
                   `}
                   style={{ animationDelay: `${0.15 * index}s` }}
                 >
-                  <div className="h-48 overflow-hidden">
-                    <img 
-                      src={project.image} 
-                      alt={project.title} 
-                      className="w-full h-full object-cover object-center transition-transform duration-700 hover:scale-110"
-                    />
-                  </div>
+                  {/* Removed the image section and adjusted the card to work without images */}
                   <div className="p-6">
                     <div className="text-sm text-portfolio-accent font-medium mb-2">{project.category}</div>
                     <h3 className="text-xl font-bold mb-2 text-portfolio-dark">{project.title}</h3>
@@ -135,13 +129,7 @@ const ProjectsSection = () => {
                 className="rounded-xl overflow-hidden glass-card opacity-0 animate-fade-in"
                 style={{ animationDelay: `${0.15 * index}s` }}
               >
-                <div className="h-48 overflow-hidden">
-                  <img 
-                    src={project.image} 
-                    alt={project.title} 
-                    className="w-full h-full object-cover object-center"
-                  />
-                </div>
+                {/* Removed the image section for mobile as well */}
                 <div className="p-6">
                   <div className="text-sm text-portfolio-accent font-medium mb-2">{project.category}</div>
                   <h3 className="text-xl font-bold mb-2 text-portfolio-dark">{project.title}</h3>

@@ -1,10 +1,10 @@
-
 import { useState } from 'react';
 import { Code, PenTool, Palette, Database, Layers, GitBranch } from 'lucide-react';
 
 const SkillsSection = () => {
   const [hoveredSkill, setHoveredSkill] = useState<number | null>(null);
 
+  // Updated skills section as requested
   const skills = [
     {
       title: 'Frontend Development',
