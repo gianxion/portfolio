@@ -63,7 +63,7 @@ const ContactSection = () => {
                   <h4 className="text-sm font-medium text-portfolio-dark/60">
                     Email
                   </h4>
-                  <p className="text-portfolio-dark">hello@yourname.com</p>
+                  <p className="text-portfolio-dark">giannhschionidhs@gmail.com</p>
                 </div>
               </div>
 
@@ -75,7 +75,7 @@ const ContactSection = () => {
                   <h4 className="text-sm font-medium text-portfolio-dark/60">
                     Phone
                   </h4>
-                  <p className="text-portfolio-dark">+1 (555) 123-4567</p>
+                  <p className="text-portfolio-dark">+306949989387</p>
                 </div>
               </div>
 
@@ -87,7 +87,7 @@ const ContactSection = () => {
                   <h4 className="text-sm font-medium text-portfolio-dark/60">
                     Location
                   </h4>
-                  <p className="text-portfolio-dark">San Francisco, CA</p>
+                  <p className="text-portfolio-dark">Veria, Greece</p>
                 </div>
               </div>
             </div>
