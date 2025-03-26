@@ -63,7 +63,9 @@ const ContactSection = () => {
                   <h4 className="text-sm font-medium text-portfolio-dark/60">
                     Email
                   </h4>
-                  <p className="text-portfolio-dark">giannhschionidhs@gmail.com</p>
+                  <p className="text-portfolio-dark">
+                    giannhschionidhs@gmail.com
+                  </p>
                 </div>
               </div>
 
@@ -112,7 +114,7 @@ const ContactSection = () => {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 rounded-lg border border-portfolio-gray focus:border-portfolio-accent focus:ring focus:ring-portfolio-accent/20 transition-all duration-300 outline-none"
-                    placeholder="Ioannis Chionidis"
+                    placeholder="Your Name"
                   />
                 </div>
 
